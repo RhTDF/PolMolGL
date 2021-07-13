@@ -1,0 +1,34 @@
+#ifndef GLOBALVARS_H
+#define GLOBALVARS_H
+
+#include <QVector>
+
+class QColor;
+class Particle;
+
+class GlobalVars
+{
+public:
+    GlobalVars();
+
+    static QColor g_ContextColor;
+    static QColor g_BackgroundColor;
+    static double g_ContextLineSize;
+    static double g_ContextPointSize;
+    static double g_SelectionLineSize;
+    static double g_SelectionPointSize;
+    static double g_SciViewFOV;
+    static double g_SciViewCullDistance;
+    static double g_PlaybackSpeed;
+    static int g_SimulationSpan;
+    static int g_NumberOfLipid
+    static bool g_ShowContext;
+    static QVector<Particle *> g_SelectedLipidList;
+    static QVector<Particle *> g_SelectedProteinList;
+    static QVector<Particle *> g_ContextLipidList;
+    static QVector<Particle *> g_ContextProteinList;
+
+
+};
+
+#endif // GLOBALVARS_H

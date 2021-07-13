@@ -1,0 +1,32 @@
+#ifndef GLOBALVARS_H
+#define GLOBALVARS_H
+
+#include <QVector>
+
+class QColor;
+class Vertex;
+
+class GlobalVars
+{
+public:
+    GlobalVars();
+
+    static QColor g_ContextColor;
+    static QColor g_BackgroundColor;
+    static double g_ContextLineSize;
+    static double g_ContextPointSize;
+    static double g_SelectionLineSize;
+    static double g_SelectionPointSize;
+    static double g_SciViewFOV;
+    static double g_SciViewCullDistance;
+    static int g_PlaybackSpeed;
+    static bool g_ShowContext;
+    static QVector<QVector<Vertex *>> g_SelectedLipidList;
+    static QVector<QVector<Vertex *>> g_SelectedProteinList;
+    static QVector<QVector<Vertex *>> g_ContextLipidList;
+    static QVector<QVector<Vertex *>> g_ContextProteinList;
+
+
+};
+
+#endif // GLOBALVARS_H

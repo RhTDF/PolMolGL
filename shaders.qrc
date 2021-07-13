@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shaders/polarvshader.glsl</file>
+        <file>shaders/polarfshader.glsl</file>
+        <file>shaders/PointFShader.glsl</file>
+        <file>shaders/PointVShader.glsl</file>
+        <file>shaders/BillboardPointFShader.glsl</file>
+        <file>shaders/BillboardPointGShader.glsl</file>
+        <file>shaders/BillboardPointVShader.glsl</file>
+        <file>shaders/CircleFShader.glsl</file>
+        <file>shaders/CircleVShader.glsl</file>
+        <file>shaders/linefshader.glsl</file>
+        <file>shaders/linevshader.glsl</file>
+        <file>shaders/PolarGUIFShader2.glsl</file>
+        <file>shaders/PolarGUIGShader2.glsl</file>
+        <file>shaders/PolarGUIVShader2.glsl</file>
+        <file>shaders/euclideanLineVShader.glsl</file>
+        <file>shaders/BillboardCircleFShader.glsl</file>
+        <file>shaders/BillboardCircleGShader.glsl</file>
+        <file>shaders/BillboardCircleVShader.glsl</file>
+    </qresource>
+</RCC>
